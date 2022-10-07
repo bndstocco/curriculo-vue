@@ -1,160 +1,103 @@
 <template>
-  <section class="container-fluid">
-    <div class="row bg-dark text-white">
-      <div class="col-lg-7 p-0">
-        <div id="carouselCidades" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="row align-items-left" style="height: 100%; width: 27vw;">
+          <div class="col-md-12">
+            <figure class="figure">
               <img
-                class="d-block w-100"
-                src="../components/img/olivier-collet-JMwCe3w7qKk-unsplash.jpg"
-                alt="pc"
+                src="../components/img/bnd.png"
+                class="figure-img img-fluid rounded"
+                alt="..."
+                style="height: 200px; width: 200px"
               />
-              <div class="carousel-caption"></div>
+            </figure>
+            <div class="colortxt">
+              <h1>Bernardo Stocco</h1>
+              <h6>Front-end Developer</h6>
             </div>
-            <div class="carousel-item">
+            <div class="fts">
+              <h1>Skills</h1>
               <img
-                class="d-block w-100"
-                src="../components/img/olivier-collet-JMwCe3w7qKk-unsplash.jpg"
-                alt="pc"
+                src="../components/img/react-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="height: 50px; "
               />
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="carousel-item">
+              <div/>
               <img
-                class="d-block w-100"
-                src="../components/img/olivier-collet-JMwCe3w7qKk-unsplash.jpg"
-                alt=""
+                src="../components/img/bootstrap-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="height: 50px; "
               />
-              <div class="carousel-caption">
-              </div>
+              <div/>
+              <img
+                src="../components/img/vue-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="width: 50px;"
+              />
+              <div/>
+              <img
+                src="../components/img/js-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="width: 50px;"
+              />
+              <div/>
+              <img
+                src="../components/img/git-icon-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="width: 50px;"
+              />
+              <div/>
+              <img
+                src="../components/img/figma-1-logo-svgrepo-com.svg"
+                class="border-dark"
+                alt="..."
+                style="width: 50px;"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-5 p-4 align-self-center">
-        <h1 class="display-4">STOCCO PCS & utilitários</h1>
-        <p class="lead">
-          Computadores de alta performance montados conforme sua necessidade.
+      <div class="col-3 col-sm-6">
+        <img
+          src="../components/img/CERTIFICADOS.svg"
+          class="rounded "
+          alt="..."
+        />
+        <p>
+          UI Design Avançado, UX Design Heurísticas, Bootstrap 4, Formação
+          JavaScript Developer, Scrum Certification, Dominando Git e GitHub,
+          iniciante ao expert, CSS com SASS e Formação React Developer
+        </p>
+        <img
+          src="../components/img/EXPERIÊNCIA.svg"
+          class="rounded "
+          alt="..."
+        />
+        <p>Estagiário Tribunal de Justiça do RS - 2 anos</p>
+        <p>Soldado Exército Brasileiro - 10 meses</p>
+        <p>
+          Auxiliar administrativo REITERLOG - 5 meses
+        </p>
+        <p>
+          Auxiliar administrativo Cooperativa Santa Clara - 5 meses
+        </p>
+
+        <img src="../components/img/FORMAÇÃO.svg" class="rounded " alt="..." />
+        <p>
+          IFSUL - Instituto Federal Sul-rio-grandense | Ciência da Computação | Mar 2022 - Jul 2022
+        </p>
+        <p>
+          UNOPAR - Universidade Norte do Paraná | Análise e Desenvolvimento de Sistemas | Jul 2022 - Jul 2024
         </p>
       </div>
     </div>
-  </section>
-
-  <section class="py-5 bg-light text-center">
-    <div class="container">
-      <div class="my-5">
-        <h2 class="display-4 text-primary">escolha o seu.</h2>
-      </div>
-      <div class="row">
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/andre-tan-8yesL5ZPjIU-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Hércules Intel i3 3º Ger. GT 730</h3>
-          <p>
-            Se você está procurando um PC com custo baixo e alto rendimento,
-            este é perfeito para você.
-          </p>
-        </div>
-
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/martin-katler-7wCxlBfGMdk-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Eros Intel i9 GTX 1660</h3>
-          <p>
-            Com a GTX 1650 seu computador tem maior desempenho em games, com
-            memória de 4GB seus games terão maior espaço para renderização,
-            trazendo confiabilidade e experiência GTX.
-          </p>
-        </div>
-
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/anthony-roberts-5WJhuXkqCkc-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Darius Completo I5 3ºGer. GTX 1650</h3>
-          <p>
-            MEMÓRIA 16GB DDR4. A memória ram é utilizada para o armazenamento
-            dos programas que estão sendo executados, ou arquivos abertos.
-            Quanto mais programas em execução, maior quantidade de memória é
-            exigida.
-          </p>
-        </div>
-
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/anthony-roberts-fMbiAi0rbkA-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Poseidon i5 9º GTX 1660</h3>
-          <p>
-            Com a GTX 1660 Super seu computador tem maior desempenho em games,
-            com memória de 6GB seus games terão maior espaço para renderização,
-            trazendo confiabilidade e experiência GTX.
-          </p>
-        </div>
-
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/andy-holmes-EOAKUQcsFIU-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Hades I3, GTX 750 TI</h3>
-          <p>
-            Com a GTX 750 TI seu computador tem maior desempenho em games, com
-            memória de 4GB seus games terão maior espaço para renderização,
-            trazendo confiabilidade e experiência GTX.
-          </p>
-        </div>
-
-        <div class="col-xl-4 col-md-6">
-          <div style="height: 200px;" class="d-flex justify-content-center">
-            <img
-              src="../components/img/timur-garifov-L7hfRVQOtgc-unsplash.jpg"
-              alt=""
-            />
-          </div>
-          <h3>Kratos I3 8100, RX 570</h3>
-          <p>
-            RX 570 é uma placa que rodará a maioria dos jogos com boa
-            performance, porém, ela não oferecerá os gráficos no máximo e não
-            terá sempre suporte às últimas tecnologias. Isso normalmente é
-            compensado pelo seu preço não ser tão alto.
-          </p>
-        </div>
-      </div>
-
-      <a href="planos.html" class="btn btn-primary btn-lg mt-4">Comprar PC</a>
-    </div>
-  </section>
-
-  <section id="home-quote" class="p-md-5">
-    <blockquote class="blockquote text-center text-black p-md-5 p-3">
-      <p class="display-4">
-        <em
-          >"O gamer sempre aprende que para cada derrota, há uma nova chance. O
-          fim é apenas o recomeço. "</em
-        >
-      </p>
-      <footer class="blockquote-footer text-black">Gamer desconhecido</footer>
-    </blockquote>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -163,4 +106,34 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.text {
+  margin-top: 15px;
+}
+.figure {
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.col-md-12 {
+  background-color: rgb(52, 52, 52);
+}
+
+.colortxt {
+  color: white;
+}
+
+.col-3 {
+  margin-left: 120px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-dark{
+  margin-top: 4px;
+}
+
+
+</style>
